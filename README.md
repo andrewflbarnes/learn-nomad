@@ -1,5 +1,14 @@
 # learn-nomad
 
+## Setup
+
+Ensure you have nomad and vault installed locally and available on the `PATH`. For example using brew:
+```bash
+brew tap hashicorp/tap
+brew install hashicorp/tap/vault
+brew install hashicorp/tap/nomad
+```
+
 ## Start and configure the nomad agent as a client + server
 
 **start nomad dev server in a terminal**
